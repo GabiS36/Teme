@@ -1,4 +1,6 @@
-## Exerciții obligatorii - grad de dificultate: Usor spre Mediu ##
+import random
+
+# Exerciții obligatorii - grad de dificultate: Usor spre Mediu ##
 
 '''
 1.Având lista:
@@ -167,7 +169,7 @@ numere = [5, 7, 3, 9, 3, 3, 1, 0, -4, 3]
 suma = 0
 
 for num in numere:
-   suma += num
+    suma += num
 print('suma numerelor din lista este: ', suma)
 
 '''
@@ -205,7 +207,7 @@ for number in numere:
 print('Lista a devenit', num)
 
 
-## Exerciții Opționale - grad de dificultate: Mediu spre greu: may need Google.##
+# Exerciții Opționale - grad de dificultate: Mediu spre greu: may need Google.##
 
 '''
 1.
@@ -265,7 +267,6 @@ Programul îi spune:
 ● Felicitări! Ai ghicit!
 '''
 
-import random
 numar_secret = random.randint(1, 30)
 numar_ghicit = None
 
@@ -327,4 +328,3 @@ tastatura_telefon = [
 for i in range(len(tastatura_telefon)):
     for j in range(len(tastatura_telefon[i])):
         print(f'Cifra curenta este {tastatura_telefon[i][j]}')
-
